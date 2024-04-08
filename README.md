@@ -27,43 +27,49 @@ The MRL project was started in 2003 in the Mechatronics Research Laboratory in I
 
 ## Directory Structure
 
-- **Task3-Sort**: Contains files related to Task 3, likely involving sorting algorithms.
-- **Task4-Search**: Contains files related to Task 4, likely involving search algorithms.
-- **Task5-Matrix**: Contains files related to Task 5, possibly involving matrix operations.
-- **Task6-OpenCV**: Contains files related to Task 6, probably focusing on OpenCV library usage.
-- **Task7-StateMachine**: Contains files related to Task 7, likely involving state machines.
+### Tasks
 
-- **2D Visualizer Using AStar**: Source codes for a 2D visualizer utilizing the A* algorithm.
-- **Angle Sensor Model**: Source codes related to an angle sensor model.
-- **Canny Edge Detector for Image**: Source codes for implementing a Canny edge detector for images.
-- **Convex Hull Pro**: Source codes for a convex hull algorithm implementation.
-- **Convex Hull**: Source codes for another convex hull algorithm implementation.
-- **Drawing and Resizing Shapes on Webcam with Qt5**: Source codes for drawing and resizing shapes on webcam using Qt5.
-- **Histogram Equalizer Image on Zynq**: Source codes for implementing a histogram equalizer for images on Zynq platform.
-- **Histogram Equalizer for Image**: Source codes for a histogram equalizer for images.
-- **Histogram Equalizer for Webcam**: Source codes for a histogram equalizer for webcam images.
+- **Task3-Sort**: Contains files related to Task 3, focusing on sorting algorithms.
+- **Task4-Search**: Houses files associated with Task 4, centered around search algorithms.
+- **Task5-Matrix**: Contains files related to Task 5, potentially involving matrix operations.
+- **Task6-OpenCV**: Holds files related to Task 6, with a primary focus on utilizing the OpenCV library.
+- **Task7-StateMachine**: Contains files related to Task 7, likely involving state machine implementations.
+
+### Projects
+
+- **2D Visualizer Using AStar**: Source codes for a 2D visualizer utilizing the A* algorithm for pathfinding.
+- **Angle Sensor Model**: Source codes related to modeling an angle sensor.
+- **Canny Edge Detector for Image**: Implementation of a Canny edge detector algorithm for images.
+- **Convex Hull Pro**: Advanced implementation of the convex hull algorithm.
+- **Convex Hull**: Another implementation of the convex hull algorithm.
+- **Drawing and Resizing Shapes on Webcam with Qt5**: Source codes for a project enabling drawing and resizing shapes on a webcam feed using Qt5.
+- **Histogram Equalizer Image on Zynq**: Implementation of a histogram equalizer for images on the Zynq platform.
+- **Histogram Equalizer for Image**: Implementation of a histogram equalizer for images.
+- **Histogram Equalizer for Webcam**: Implementation of a histogram equalizer for webcam images.
 - **Image Kernel with Padding**: Source codes for image kernel operations with padding.
 - **Image Thresholding**: Source codes for image thresholding operations.
 - **Image Kernel without Padding**: Source codes for image kernel operations without padding.
-- **Kalman Filter**: Source codes for implementing a Kalman filter.
-- **Robot Controller Tools**: Source codes related to robot controller tools.
-- **Robotic Soccer Playground**: Source codes for a robotic soccer playground project.
-- **Soccer Play Ground Web Project**: Source codes for a web project related to soccer playground.
+- **Kalman Filter**: Implementation of the Kalman filter algorithm.
+- **Robot Controller Tools**: Tools and utilities related to robot control.
+- **Robotic Soccer Playground**: Source codes for a project related to a robotic soccer playground.
+- **Soccer Play Ground Web Project**: Web project related to the soccer playground.
 - **Webcam Thresholding**: Source codes for thresholding webcam images.
 
+### Advanced Projects and Tools
+
 - **Ball Pattern**: Source codes related to ball pattern recognition.
-- **CNN Ball Detector**: Source codes for a Convolutional Neural Network-based ball detector.
+- **CNN Ball Detector**: Implementation of a Convolutional Neural Network-based ball detector.
 - **HSl OS**: Source codes related to an operating system project.
-- **Humanoid Robot Active Vision DDQN**: Source codes for a project involving active vision for humanoid robots.
+- **Humanoid Robot Active Vision DDQN**: Project involving active vision for humanoid robots using Deep Q-Networks (DDQN).
 - **Image Landmark Detection**: Source codes for image landmark detection.
-- **MRL HSL Annotation**: Source codes for MRL HSL annotation tool.
-- **MRL HSL Segment**: Source codes for MRL HSL segmentation tool.
-- **MotionTool**: Source codes for motion analysis tool.
-- **RoboCup Humanoid MRL Webots Simulation**: Source codes for RoboCup humanoid robot simulation using Webots.
-- **RoboCup Log Analysis Tool**: Source codes for a tool to analyze RoboCup logs.
+- **MRL HSL Annotation**: Annotation tool for the MRL HSL project.
+- **MRL HSL Segment**: Segmentation tool for the MRL HSL project.
+- **MotionTool**: Tool for motion analysis.
+- **RoboCup Humanoid MRL Webots Simulation**: Source codes for simulating RoboCup humanoid robots using Webots.
+- **RoboCup Log Analysis Tool**: Tool for analyzing RoboCup logs.
 - **Simulator**: Source codes for a simulator project.
-- **Soccer Robot Playground**: Source codes for a soccer robot playground project.
-- **World Model**: Source codes for a world modeling project.
+- **Soccer Robot Playground**: Source codes for a project related to a soccer robot playground.
+- **World Model**: Source codes for a project related to world modeling.
 
 ## Usage
 
@@ -79,17 +85,30 @@ This repository is licensed under the [MIT License](LICENSE). Feel free to use t
 
 ## Developers 👨🏻‍💻
 
-<p align="center">
+<div style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
+  
+  [<img src="https://avatars.githubusercontent.com/u/20186211?v=4" width="100" alt="Saeid Tafazzol"/><br /><sub><b>Saeid Tafazzol</b></sub>](https://github.com/saeidtafazzol)
+  
+  [<img src="https://avatars.githubusercontent.com/u/46896724?v=4" width="100" alt="Arash Rahmani"/><br /><sub><b>Arash Rahmani</b></sub>](https://github.com/arashrahmani)
+  
+  [<img src="https://avatars.githubusercontent.com/u/48767380?v=4" width="100" alt="Amir Gholami"/><br /><sub><b>Amir Gholami</b></sub>](https://github.com/AmiirGholamii)
+  
+  [<img src="https://avatars.githubusercontent.com/u/30632761?v=4" width="100" alt="Nima Akbarzadeh"/><br /><sub><b>Nima Akbarzadeh</b></sub>](https://github.com/iw4p)
+  
+  [<img src="https://avatars.githubusercontent.com/u/104717705?v=4" width="100" alt="Mahdi Zynali"/><br /><sub><b>Mahdi Zynali</b></sub>](https://github.com/mahdizynali)
+  
+  [<img src="https://avatars.githubusercontent.com/u/46036543?v=4" width="100" alt="Arshia Pazoki"/><br /><sub><b>Arshia Pazoki</b></sub>](https://github.com/ArshiaPazoki)
+  
+  [<img src="https://avatars.githubusercontent.com/u/14248281?v=4" width="100" alt="Taher Fattahi"/><br /><sub><b>Taher Fattahi</b></sub>](https://github.com/taherfattahi)
+  
+  [<img src="https://avatars.githubusercontent.com/u/73719921?v=4" width="100" alt="Hamta Niknazar"/><br /><sub><b>Hamta Niknazar</b></sub>](https://github.com/hamta-niknazar)
+  
+  [<img src="https://avatars.githubusercontent.com/u/31012373?v=4" width="100" alt="Soheil Khatibi"/><br /><sub><b>Soheil Khatibi</b></sub>](https://github.com/SoheilKhatibi)
 
-<a href="https://github.com/Mohsen020"><img src="https://avatars.githubusercontent.com/u/127343209?v=4" width="100;" alt="Mohsen Moradi"/><br /><sub><b>.:: Mohsen Moradi ::.</b></sub></a>
+  [<img src="https://avatars.githubusercontent.com/u/89135083?v=4" width="100" alt="Awrsha Parvizi"/><br /><sub><b>Amir M. Parvizi</b></sub>](https://github.com/Awrsha)
+  
+</div>
 
-</p>
-
-<p align="center">
-
-<a href="https://github.com/Awrsha"><img src="https://avatars.githubusercontent.com/u/89135083?v=4" width="100;" alt="Awrsha Parvizi"/><br /><sub><b>.:: Amir M. Parvizi ::.</b></sub></a>
-
-</p>
 
 ## FeedBack : 🛠  
 <br /> ⚛️ Contact Us : <a href="https://sites.google.com/view/mrl-hsl">Here</a>. </ul> <p align="center">💙 If you like our projects, Give them ⭐ and Share it with friends!</p></p>
