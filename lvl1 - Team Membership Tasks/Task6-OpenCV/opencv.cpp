@@ -2,32 +2,43 @@
 
 using namespace cv;
 
-using namespace std;
-
 int main() {
+   // Create a VideoCapture object to access the camera
+   VideoCapture cap(0);  // 0 is the default camera index
 
-Mat image;
+   // Check if the camera was opened successfully
+   if (!cap.isOpened()) {
+       std::cout << "Cannot open camera" << std::endl;
+       return -1;
+   }
 
-namedWindow("Display window");
+   // Create a window to display the camera feed
+   namedWindow("Camera Feed", WINDOW_NORMAL);
 
-VideoCapture cap(0);
+   // Loop to capture and display frames
+   while (true) {
+       // Capture the next frame from the camera
+       Mat frame;
+       cap >> frame;
 
-if (!cap.isOpened()) {
+       // Check if the frame was captured successfully
+       if (frame.empty()) {
+           std::cout << "Error capturing frame" << std::endl;
+           break;
+       }
 
-cout << "cannot open camera";
+       // Display the frame in the window
+       imshow("Camera Feed", frame);
 
-}
+       // Wait for the user to press 'q' to quit the loop
+       if (waitKey(25) == 'q') {
+           break;
+       }
+   }
 
-while (true) {
+   // Release the VideoCapture object and close the window
+   cap.release();
+   destroyAllWindows();
 
-cap >> image;
-
-imshow("Display window", image);
-
-waitKey(25);
-
-}
-
-return 0;
-
+   return 0;
 }
