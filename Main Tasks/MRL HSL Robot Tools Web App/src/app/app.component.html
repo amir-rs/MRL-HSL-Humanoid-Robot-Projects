@@ -1,0 +1,15 @@
+<mat-toolbar color="accent">
+  <span>Robot Tools</span>
+  <button mat-button="Home" [routerLink] = "['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    Home
+  </button>
+  <button mat-button="Monitor" [routerLink] = "['monitor']" routerLinkActive="active">
+    Monitor
+  </button>
+  <button mat-button="Config" [routerLink] = "['config']" routerLinkActive="active">
+    Config
+  </button>
+</mat-toolbar>
+
+<br>
+<router-outlet></router-outlet>
